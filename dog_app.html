@@ -14928,6 +14928,7 @@ test_{network} = bottleneck_features['test']</code></pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>Why previous Model didn't work:</strong> Starting, we tried developing everything from scratch (Not good test accuracy)... Later, I checked, with previous model, the accuracy on test data was ≈38%, however with using ResNet50, I was able to bump up the test accuracy to ≈76%.</p>
 <p>I found that ResNet was performing better (considering the tradeoff between accuracy and time of computation).</p>
 <p>Also, I researched and found Resnet is very much suitable to be used (Link to few references):</p>
 <ul>
